@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/main_bg"
+    tools:context="com.kazeik.doctor.doctorexam.activity.ProblemActivity">
+
+    <include layout="@layout/layout_title"></include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_15"
+        android:text="热门问题"
+        android:textColor="@color/text_bg"
+        android:textSize="@dimen/sp_14"></TextView>
+
+    <ExpandableListView
+        android:id="@+id/elv_listView"
+        android:layout_width="match_parent"
+        android:groupIndicator="@null"
+        android:childIndicator="@null"
+        android:cacheColorHint="@color/trans"
+        android:layout_height="match_parent" />
+</LinearLayout>

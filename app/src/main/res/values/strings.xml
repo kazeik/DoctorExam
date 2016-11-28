@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">医师定考培训</string>
+    <string name="exit">退出</string>
+    <string name="homepage">主页</string>
+    <string name="myaccount">我的帐户</string>
+    <string name="back">返回</string>
+    <string name="mock">模拟考试</string>
+    <string name="lessonPage">模拟卷</string>
+    <string name="answer_car">答题卡</string>
+    <string name="problem">定考百问</string>
+    <string name="trainlesson">培训课程</string>
+    <string name="cancel">取消</string>
+    <string name="new_user">新用户注册</string>
+    <string name="mylesson">我的课程</string>
+    <string name="settlement">结算</string>
+    <string name="shoplist">购物车列表</string>
+    <string name="choiceshop">请选择要购买的商品</string>
+    <string name="orderlist">订单列表</string>
+    <string name="surepay">确认购买</string>
+    <string name="orderinfo">订单信息</string>
+    <string name="no_order_pay">当前没有订单需要支付</string>
+    <string name="onlinepay">在线支付</string>
+    <string name="check">查错</string>
+
+    <string-array name="mainGrid">
+        <item>培训课程</item>
+        <item>我的课程</item>
+        <item>我的帐户</item>
+        <item>我的订单</item>
+        <item>我的资料</item>
+        <item>定考百问</item>
+        <item>考务信息</item>
+        <item>在线客服</item>
+        <item>模拟考试</item>
+        <item>药品查询</item>
+        <item>赚零花钱</item>
+        <item>系统消息</item>
+    </string-array>
+
+    <string name="end">2016-07-25 12:00:00</string>
+
+
+    <string name="message_error">服务器数据异常</string>
+    <string name="empty_msg">暂无数据</string>
+    <string name="request_error">请求异常，请重试</string>
+    <string name="loading">加载中..</string>
+
+    <!-- pupb-->
+    <color name="dark_grey">#696969</color>
+
+    <string name="Open_Book_1">Open Book 1</string>
+    <string name="Open_Book_2">Open Book 2</string>
+    <string name="Enable_Parallel_Texts">Enable Parallel Texts</string>
+    <string name="Toggle_Sync_Views">Toggle Sync Views</string>
+    <string name="Reset_Sync_Views">Reset Sync Views</string>
+    <string name="Show_Metadata">Show Metadata</string>
+    <string name="Refresh">刷新</string>
+    <string name="From_Book_1">From Book 1</string>
+    <string name="From_Book_2">From Book 2</string>
+    <string name="Sync_Book_1_with_Book_2">Sync Book 1 with Book 2</string>
+    <string name="Sync_Book_2_with_Book_1">Sync Book 2 with Book 1</string>
+    <string name="Book_1">Book 1</string>
+    <string name="Book_2">Book 2</string>
+    <string name="bookOpen">bookOpen</string>
+    <string name="Table_of_Contents">目录</string>
+    <string name="Change_Size">Change Panel Size</string>
+    <string name="error_LoadPage">不能够加载</string>
+    <string name="error_LoadBook">不能够加载书本</string>
+    <string name="error_onlyOneBookOpen">只有一本书打开!</string>
+    <string name="error_cannotSynchronize">不能同步!</string>
+    <string name="error_metadataNotFound">元数据没有找到!</string>
+    <string name="error_tocNotFound">目录未找到!</string>
+    <string name="error_cannotChangeSizes">不能改变大小!</string>
+    <string name="url">url</string>
+    <string name="bpath">bpath</string>
+    <string name="invisible">invisible</string>
+    <string name="second">second</string>
+    <string name="time">time</string>
+    <string name="error_cannotTurnPage">不能够翻页!</string>
+    <string name="tome">tome</string>
+    <string name="lang">lang</string>
+    <string name="error_noOtherLanguages">找不到其它语言!</string>
+    <string name="state">state</string>
+    <string name="error_cannotLoadState">不能够加载程序/书本的状态</string>
+    <string name="textOrHTML">text/html</string>
+    <string name="sync">sync</string>
+    <string name="page">page</string>
+    <string name="CurrentPageBook">CurrentPageBook</string>
+    <string name="LanguageBook">LanguageBook</string>
+    <string name="pathBook">pathBook</string>
+    <string name="error_CannotCloseStream">不能够关闭流!</string>
+    <string name="Book_Stream">Book Stream</string>
+    <string name="nameEpub">nameEpub</string>
+    <string name="error_goToPage">跳转错误:</string>
+    <string name="full_path">full-path</string>
+    <string name="zip">.zip</string>
+    <string name="htmlBodyTableOpen">&lt;html&gt;&lt;body&gt;&lt;table&gt;</string>
+    <string name="titlesMeta">&lt;tr&gt;&lt;td&gt;标题:&lt;/td&gt;</string>
+    <string name="authorsMeta">&lt;tr&gt;&lt;td&gt;作者:&lt;/td&gt;</string>
+    <string name="contributorsMeta">&lt;tr&gt;&lt;td&gt;参与者:&lt;/td&gt;</string>
+    <string name="languageMeta">&lt;tr&gt;&lt;td&gt;语言:&lt;/td&gt;&lt;td&gt;</string>
+    <string name="publishersMeta">&lt;tr&gt;&lt;td&gt;出版商:&lt;/td&gt;</string>
+    <string name="typesMeta">&lt;tr&gt;&lt;td&gt;类型:&lt;/td&gt;</string>
+    <string name="descriptionsMeta">&lt;tr&gt;&lt;td&gt;摘要:&lt;/td&gt;</string>
+    <string name="rightsMeta">&lt;tr&gt;&lt;td&gt;权利:&lt;/td&gt;</string>
+    <string name="tablebodyhtmlClose">&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="tocReference">&lt;tr&gt;&lt;td&gt;目录:&lt;/td&gt;</string>
+    <string name="change_Font">更改字体</string>
+    <string name="change_Font_Color">字体颜色:</string>
+    <string name="changeStyle">Change Style</string>
+    <string name="blue_rgb">#0000ff</string>
+    <string name="red_rgb">#ff0000</string>
+    <string name="green_rgb">#00ff00</string>
+    <string name="black_rgb">#000000</string>
+    <string name="white_rgb">#ffffff</string>
+    <string name="error_CannotChangeStyle">不能改变风格!</string>
+    <string name="OK">确定</string>
+    <string name="Cancel">取消</string>
+    <string name="SetSizeTitle">Upper Panel Size:</string>
+    <string name="LanguageChooserTitle">选择两种语言:</string>
+    <string name="parallelTextBool">parallelTextBool</string>
+
+
+    <string name="title_activity_split_panel">SplitPanel</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_book_view">BookView</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tocview">TOCView</string>
+    <string name="title_activity_data_view">DataView</string>
+    <string name="ViewType">ViewType</string>
+    <string name="title_activity_audio_view">AudioView</string>
+    <string name="audio">Extract Audio</string>
+    <string name="error_openaudiofile">不能打开声音文件</string>
+    <string name="play">&gt;</string>
+    <string name="pause">| |</string>
+    <string name="rew">&lt;&lt;</string>
+    <string name="exAudio">exAudio</string>
+    <string name="no_audio">找不到音频文件</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_pick_epub">书列表</string>
+    <string name="menu_chapters">章节</string>
+    <string name="menu_bookmark">书签</string>
+    <string name="no_epub_found">epub文件没有发现</string>
+    <string name="sd_card_not_mounted">SD卡没有准备好</string>
+    <string name="epub_title">标题</string>
+    <string name="no_book_selected">没有书本被选择</string>
+    <string name="not_implemented">没实现</string>
+    <string name="something_is_badly_broken">有严重的损坏</string>
+    <string name="end_of_book">已是最后一页</string>
+    <string name="bookmark_dialog_title">Set/Restore Bookmark</string>
+    <string name="bookmark_dialog_set_button">Set Bookmark</string>
+    <string name="bookmark_dialog_goto_button">Goto Bookmark</string>
+    <string name="bookmark_dialog_start_speech">Start Speech</string>
+    <string name="bookmark_dialog_stop_speech">Stop Speech</string>
+    <string name="options_menu_title">选项</string>
+    <string name="text_to_speech_not_installed">Text To Speech not installed</string>
+    <string name="table_of_contents_missing">目录未找到</string>
+
+    <string-array name="ColorFont">
+        <item>黑</item>
+        <item>红</item>
+        <item>绿</item>
+        <item>蓝</item>
+        <item>白</item>
+    </string-array>
+
+    <string name="ChangeBackgroundColor">背景颜色:</string>
+
+    <string-array name="ColorBack">
+        <item>白</item>
+        <item>红</item>
+        <item>绿</item>
+        <item>蓝</item>
+        <item>黑</item>
+    </string-array>
+
+    <string name="syncScroll">Sync. Scroll</string>
+    <string name="ChangeFont">字体:</string>
+
+    <string-array name="FontStyle">
+        <item>灯芯体</item>
+        <item>灯芯体</item>
+        <item>等宽字体</item>
+    </string-array>
+
+    <string name="Arial">灯芯体</string>
+    <string name="Serif">灯芯体</string>
+    <string name="Monospace">等宽字体</string>
+    <string name="FontSize">字体大小:</string>
+    <string name="LineHeight">行高:</string>
+    <string name="TextAlign">较准:</string>
+
+    <string-array name="testAlignOption">
+        <item>左</item>
+        <item>中</item>
+        <item>右</item>
+        <item>Justify</item>
+    </string-array>
+
+    <string name="Left_Align">左</string>
+    <string name="Center_Align">中</string>
+    <string name="Right_Align">右</string>
+    <string name="DefaultSettings">默认</string>
+    <string name="px">px</string>
+    <string name="open">打开...</string>
+    <string name="Margin">间距(px):</string>
+
+    <string-array name="FontSize">
+        <item>超大</item>
+        <item>大</item>
+        <item>正常</item>
+        <item>小</item>
+        <item>更小</item>
+    </string-array>
+    <string-array name="LineHeight">
+        <item>1em</item>
+        <item>1.25em</item>
+        <item>1.5em</item>
+        <item>1.75em</item>
+        <item>2em</item>
+        <item>0.9em</item>
+    </string-array>
+
+    <string name="Justify">Justify</string>
+
+    <string-array name="Margin">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+    <!-- -->
+</resources>

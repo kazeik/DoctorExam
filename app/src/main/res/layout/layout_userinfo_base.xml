@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="姓名"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="性别"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"
+            android:visibility="gone"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="出生年月"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="从业日期"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_workTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="学历"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_stuLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="学位"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_degree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="毕业院校"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="毕业日期"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_finishDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="手机号"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="邮箱"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include
+            layout="@layout/view_line"
+            android:visibility="gone"></include>
+    </LinearLayout>
+</ScrollView>

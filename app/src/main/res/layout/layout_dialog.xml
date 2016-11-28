@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dp_30">
+    <!-- 这里如果使用android:layout_width="5000dip"设置一个极大的值 系统就会 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:gravity="center"
+        android:text="自定义Dialog"
+        android:textColor="@color/black"
+        android:id="@+id/tv_dialog_title"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_18" />
+    <TextView
+        android:id="@+id/tv_dialog_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_15"
+        android:text="11111111111111111111111"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_dialog_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_margin="@dimen/dp_15"
+        android:textColor="@color/rg_title"
+        android:textSize="@dimen/sp_16"
+        android:layout_gravity="center_horizontal"
+        android:text="确定" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.kazeik.doctor.doctorexam.activity.MainActivity">
+
+    <include layout="@layout/layout_title"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.kazeik.doctor.doctorexam.view.SlideShowView
+                android:id="@+id/ssv_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.kazeik.doctor.doctorexam.view.MGridView
+                android:id="@+id/gv_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="80dp"
+                android:listSelector="@color/trans"
+                android:numColumns="4"
+                android:stretchMode="columnWidth"></com.kazeik.doctor.doctorexam.view.MGridView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

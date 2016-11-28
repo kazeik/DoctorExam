@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.kazeik.doctor.doctorexam.activity.StudyMoreInfoActivity">
+
+    <include layout="@layout/layout_title"></include>
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_bg"
+        android:textSize="@dimen/sp_20" />
+
+    <TextView
+        android:id="@+id/tv_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey1"
+        android:textSize="@dimen/sp_13" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/wv_body"
+        android:layout_height="match_parent">
+    </WebView>
+
+</LinearLayout>

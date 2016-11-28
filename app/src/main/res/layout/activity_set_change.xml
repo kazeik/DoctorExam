@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.kazeik.doctor.doctorexam.activity.SetChangeActivity">
+
+    <include layout="@layout/layout_title"></include>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="联系手机"
+        android:inputType="number"
+        android:padding="@dimen/dp_10"
+        android:singleLine="true" />
+
+    <include layout="@layout/view_line"></include>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="开户人"
+        android:padding="@dimen/dp_10"
+        android:singleLine="true" />
+
+    <include layout="@layout/view_line"></include>
+
+    <EditText
+        android:id="@+id/et_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="银行卡号"
+        android:inputType="number"
+        android:padding="@dimen/dp_10"
+        android:singleLine="true" />
+
+    <include layout="@layout/view_line"></include>
+
+    <EditText
+        android:id="@+id/et_bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="银行名"
+        android:padding="@dimen/dp_10"
+        android:singleLine="true" />
+
+    <include layout="@layout/view_line"></include>
+
+    <EditText
+        android:id="@+id/et_sureBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="开户行"
+        android:padding="@dimen/dp_10"
+        android:singleLine="true" />
+
+    <include layout="@layout/view_line"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/white">
+
+        <com.kazeik.doctor.doctorexam.view.TimeButton
+            android:id="@+id/tv_lastTime"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@color/frame_bg"
+            android:paddingLeft="@dimen/dp_5"
+            android:paddingRight="@dimen/dp_5"
+            android:text="获取验证码"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_lastTime"
+            android:background="@color/trans"
+            android:hint="请输入您的验证码"
+            android:inputType="number"
+            android:padding="@dimen/dp_10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_margin="@dimen/dp_20"
+        android:background="@drawable/btn_bg"
+        android:text="设置"
+        android:textColor="@color/white" />
+</LinearLayout>

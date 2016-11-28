@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="资格证书编码"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_cpmlCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="资格证书取得时间"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_obtainTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="执业证书编码"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_practisingCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="执业证书取得时间"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_practisingTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="所属科室名称"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_roomName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_line"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="职业年限"
+                android:textColor="@color/text_bg"
+                android:textSize="@dimen/sp_15" />
+
+            <EditText
+                android:id="@+id/et_workLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/trans"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
